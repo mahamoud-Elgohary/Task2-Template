@@ -1,0 +1,172 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+}
+.logo{
+    display: inline-block;
+    color: beige;
+    /* margin-left: 240px; */
+}
+.links {
+    display: inline-block;
+}
+.links li {
+    display: inline-block;
+}
+.links li a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: white;
+}
+.links li  :hover{
+    color: #bb912b;
+}
+.nav{
+    background-color: #0b3545;
+    padding: 0 279px;
+}
+.txt-background{
+    position: relative;
+    background-image: url(../images/background1.jpg);
+    background-size: cover;
+    height: calc(100vh - 64px);
+}
+.text{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    width: 450px;
+    max-width: 100%;
+    text-align: center;
+     transform: translate(-50%, -50%);
+    font-size: 20px;
+     color: white;
+     
+}
+.container2{
+    margin: 70px 279px;
+}
+.text-icon1 h1{
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 2px 1px #00000047;
+    
+}
+.txt-icon{
+    display: inline-block;
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+.txt-icon p{
+    text-align: center;
+}
+.txt-icon .icon {
+    font-size: 30px;
+    text-align: center;
+    color: #f89760;
+}
+.txt-icon .txt h3{
+    text-align: center;
+}
+.text-icon1{
+    margin: 70px 279px;
+}
+
+.container-images{
+    background-color: #f4f4f4;
+    padding-bottom: 70px;
+}
+.container-images .text-images h1{
+    text-align: center;
+    padding-top: 55px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #79b9ab;
+}
+.text-images{
+    margin: 70px 279px  0 279px ;
+}
+.text-images .txt-icon .txt p{
+    text-align: start;
+}
+.text-images .txt-icon .txt h3{
+    text-align: start;
+    color: #79b9ab;
+}
+.txt-icon img{
+    width: 233px;
+}
+.container-backorange{
+    background-color: #f1965fd6;
+    padding-bottom: 70px;
+}
+.container-backorange h1{
+    text-align: center;
+    margin: 0;
+    padding-top: 125px;
+    color: white;
+
+}
+.orange{
+    margin: 0 279px  0 279px ;
+}
+.container-backorange .orange .txt-icon .icon i {
+    width: 55px;
+    height: 55px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    line-height: 55px;
+    border-radius: 100%;
+    background-color: white;
+}
+.container-backorange .orange .txt-icon h3{
+    color: white;
+
+}
+.container-backorange .orange .txt-icon p{
+    color: white;
+
+}
+.container-image-txt{
+margin: 0 279px;
+}
+.container-image-txt.txt-icon img{
+    width: 200px;
+}
+.container-image-txt .txt-image-prof{
+    display: inline-block;
+    width: 20%;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+.txt-image-prof img{
+    width: 165px;
+    height: 180px;
+}
+.container-image-txt h1{
+    text-align: center;
+    color: #15617e;
+    font-weight: bold;
+    padding-top: 125px;
+}
+.container-image-txt .txt-image-prof h3{
+    color: #15617e;
+    font-weight: 100;
+}
+.container-image-txt .txt-image-prof h4{
+    color: #15617e;
+    font-weight: bold;
+}
+.container-image-txt .txt-image-prof p{
+    color: #15617e;
+}
+
+.container-backorange.image-orange {
+    width: 100%;
+}
+.container-backorange.image-orange img {
+    width: 100%;
+}
